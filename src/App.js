@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <NoteState>
-        <Router baseName='/iNotebook-React'>
+        <Router basename='/iNotebook-React'>
           <Navbar />
           <Alert message="This is amazing React course" />
           <div className="container">
